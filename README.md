@@ -6,7 +6,7 @@ This is a simple simulation of a toy robot moving on a 5x5 tabletop grid. The ro
 
 ## Pre-requisites
 
-- Python: v3.12.3+
+- Python: v3.12+
 
 ## How to Run
 
@@ -27,9 +27,15 @@ source venv/bin/activate
 
 3. Install the required dependencies within the virtual environment:
 
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+  pip install -r requirements.txt
+```
+
+or
+
+```sh
+pip3 install -r requirements.txt
+```
 
 4. Run the simulator:
 
